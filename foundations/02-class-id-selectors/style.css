@@ -1,0 +1,18 @@
+#two {
+    color: #234ae6;
+    font-size: 36px;
+}
+
+.odd {
+background-color: #d5a6a6;
+font-family: Verdana, DejaVu Sans, sans-serif
+}
+
+.size {
+font-size: 24px
+}
+
+#unique {
+font-weight: bold;
+background-color: rgb(15, 160, 60)
+}
