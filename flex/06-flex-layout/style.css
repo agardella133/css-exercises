@@ -2,9 +2,38 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 25px;
+  margin: 0px; */
+}
+
+.content {
+display: flex;
+flex: 1;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* padding: 50px; */
+}
+
+.footer {
+  display: flex;
+  background: #eee;
+  margin-top: 10px;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* flex: 1; */
+  
+  /* align-items: space-between; */
 }
 
 img {
@@ -16,6 +45,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -24,4 +54,29 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px; 
+  padding: 15px;
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray; 
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
 }
